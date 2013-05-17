@@ -1,0 +1,85 @@
+<html>
+    <head>
+    <title>Yeti</title>
+      <link rel='stylesheet' type='text/css' href='assets/application.css'/>
+      <link href="assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+        <header>
+            <p></p>
+        </header>
+
+        <div id="logo-container"></div>
+        <div id='contact'>
+
+          <div id='avatar'></div>
+
+          <a href="#myModal" role="button" class="interestedbutton btn btn-large btn-danger " data-toggle="modal">I'm Interested!</a>
+
+        </div>
+        <div id='content'>
+
+          <div class="row">
+          <div class="span10">
+            <div id='pitchsection'>
+
+              <h3>You need conferencing, but you want to do business with people, not screens.</h3>
+              <p>
+                Progress doesn't stop for space and time. Tesseract allows enterprise expertise to be present, no matter where in the world they are. Decisions are better and faster. Conversations are natural and lifelike. Tesseract conferences are about experience, from mobile to desktop, aboard or beyond. From team rooms to the executive boardroom. We can deploy cost effectively and can scale with the needs of your organization.
+              </p>
+
+              <h4> About This Technology </h4>
+            </div>
+          </div>
+        <div class="span5">
+          <div id='info'>
+
+            <h4>Name:</h4>
+            Bob Licenser
+            <h4>Phone: </h4> 123-456-789
+            <h4>Email: </h4> fakeemail@osu.edu
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+<!--Modal-->
+
+  <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+      <h3 id="myModalLabel">Contact Us</h3>
+    </div>
+    <div class="modal-body">
+      <h3>Thanks for your interest!</h3>
+      <form>
+    <fieldset>
+      <legend></legend>
+      <div class="controls controls-row">
+      <input class="span3" type="text" placeholder="First Name" required>
+      <input class="span3" type="text" required placeholder="Last Name">
+      </div>
+      <input class="span6" type="email" required placeholder="Email">
+      <input class="span6" type="text" placeholder="Organization" required>
+      <textarea rows="3" class="span6" placeholder="Message (Optional)"></textarea>
+      <input class="span6" type="text" placeholder="Phone(Optional)">
+    </fieldset>
+    </form>
+    </div>
+    <div class="modal-footer">
+      <button type="submit" class="btn btn-primary" data-dismiss="modal" aria-hidden="true">Submit</button>
+    </div>
+  </div>
+
+
+  <!--Modal End-->
+
+  <!--Footer-->
+  <div id='footer'><a href="#myModal" role="button" class="footerbutton btn btn-large btn-danger " data-toggle="modal">I'm Interested!</a></div>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
+
+</html>
